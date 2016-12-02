@@ -14,9 +14,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func showLogin(){
+        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+        let login = storyboard.instantiateInitialViewController()
+        window?.rootViewController = login
+    }
+    func showApp(){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let app = storyboard.instantiateInitialViewController()
+        window?.rootViewController = app
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        if Usuario.isAvailable(){
+            showApp()
+        }else{
+            showLogin()
+        }
+        
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        navigationBarAppearace.tintColor = UIColor.whiteColor()
+        navigationBarAppearace.barTintColor = UIColor(red: 138, green: 215, blue: 24)
+        
+        // change navigation item title color
+        navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+
         return true
     }
 

@@ -1,4 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Categoria" representedClassName=".Categoria" syncable="YES">
+        <attribute name="codigo_categoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_categoria" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_evento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_categoria" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Evento" representedClassName=".Evento" syncable="YES">
+        <attribute name="codigo_evento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_evento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_evento" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Listado" representedClassName=".Listado" syncable="YES">
+        <attribute name="categoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_categoria" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_evento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_listado" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_operacion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_placa" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_ruta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tipo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tramo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="operacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ruta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tramo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Operacion" representedClassName=".Operacion" syncable="YES">
+        <attribute name="id_operacion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_region" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_operacion" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Placa" representedClassName=".Placa" syncable="YES">
+        <attribute name="id_operacion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_placa" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ruta" representedClassName=".Ruta" syncable="YES">
+        <attribute name="id_operacion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_ruta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_ruta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tipo" representedClassName=".Tipo" syncable="YES">
+        <attribute name="codigo_tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_categoria" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tipo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tramo" representedClassName=".Tramo" syncable="YES">
+        <attribute name="id_ruta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tramo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_tramo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName=".Usuario" syncable="YES">
+        <attribute name="apellidos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_region" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tipo_usuario" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo_usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Categoria" positionX="-65" positionY="270" width="128" height="103"/>
+        <element name="Evento" positionX="79" positionY="288" width="128" height="88"/>
+        <element name="Listado" positionX="367" positionY="207" width="128" height="313"/>
+        <element name="Operacion" positionX="-74" positionY="144" width="128" height="88"/>
+        <element name="Placa" positionX="-245" positionY="47" width="128" height="88"/>
+        <element name="Ruta" positionX="-72" positionY="36" width="128" height="88"/>
+        <element name="Tipo" positionX="-218" positionY="279" width="128" height="103"/>
+        <element name="Tramo" positionX="-243" positionY="162" width="128" height="88"/>
+        <element name="Usuario" positionX="117" positionY="71" width="128" height="150"/>
+    </elements>
 </model>

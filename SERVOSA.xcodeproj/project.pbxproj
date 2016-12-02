@@ -7,23 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C45E6D19A282785699195D4 /* Pods_SERVOSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA11FE4DD7CC018ED95BE83C /* Pods_SERVOSA.framework */; };
+		1E2ED1141D358D3700BB6E4A /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2ED1131D358D3700BB6E4A /* AlertHelper.swift */; };
+		1E38ACD31D411CB90028B1C5 /* PyramidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38ACD21D411CB90028B1C5 /* PyramidViewController.swift */; };
+		1E3E34721D35A43500BDFE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E34711D35A43500BDFE6A /* Assets.xcassets */; };
+		1E466B7E1D46688100B70A88 /* ExportarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466B7D1D46688100B70A88 /* ExportarViewController.swift */; };
+		1E466B801D4685DE00B70A88 /* ExportarPyramidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466B7F1D4685DE00B70A88 /* ExportarPyramidViewController.swift */; };
+		1E466B821D46B4C900B70A88 /* ConfiguracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466B811D46B4C900B70A88 /* ConfiguracionViewController.swift */; };
+		1E466B841D46E36400B70A88 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E466B831D46E36300B70A88 /* MessageUI.framework */; };
+		1E7041DA1D3D43E20032FAB1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7041D91D3D43E20032FAB1 /* TestViewController.swift */; };
+		1E953ABF1D3DDE1500F6672C /* LoadingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E953ABE1D3DDE1500F6672C /* LoadingHelper.swift */; };
+		1E953AC11D3E7D0D00F6672C /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E953AC01D3E7D0D00F6672C /* ListadoViewController.swift */; };
+		1E953AC41D3E8AA900F6672C /* ListadoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E953AC21D3E8AA900F6672C /* ListadoCell.swift */; };
+		1E953AC51D3E8AA900F6672C /* ListadoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E953AC31D3E8AA900F6672C /* ListadoCell.xib */; };
+		1EA0D1F91D3FE12400AB6CD4 /* Piechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0D1F81D3FE12400AB6CD4 /* Piechart.swift */; };
+		1EA0D1FB1D3FE7AF00AB6CD4 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0D1FA1D3FE7AF00AB6CD4 /* PieViewController.swift */; };
+		1ECECA971D3D675300510018 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECECA961D3D675300510018 /* KeyboardHelper.swift */; };
+		1ECECA991D3D91CC00510018 /* ModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECECA981D3D91CB00510018 /* ModelHelper.swift */; };
+		1ECECA9D1D3D9CE400510018 /* Operacion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECECA9C1D3D9CE400510018 /* Operacion+CoreDataProperties.swift */; };
+		1ED550FE1D20861D0049C314 /* Login.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED550FD1D20861D0049C314 /* Login.Storyboard */; };
+		1ED551051D208D2D0049C314 /* Usuario+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED551031D208D2D0049C314 /* Usuario+CoreDataProperties.swift */; };
+		1ED551061D208D2D0049C314 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED551041D208D2D0049C314 /* Usuario.swift */; };
+		1ED551081D208D8A0049C314 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED551071D208D8A0049C314 /* LoginViewController.swift */; };
+		1ED5510A1D209BEC0049C314 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED551091D209BEC0049C314 /* NewEventViewController.swift */; };
 		1EDF4C701D1B998E00BEAD24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF4C6F1D1B998E00BEAD24 /* AppDelegate.swift */; };
 		1EDF4C721D1B998E00BEAD24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF4C711D1B998E00BEAD24 /* ViewController.swift */; };
 		1EDF4C751D1B998E00BEAD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF4C731D1B998E00BEAD24 /* Main.storyboard */; };
 		1EDF4C781D1B998E00BEAD24 /* SERVOSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF4C761D1B998E00BEAD24 /* SERVOSA.xcdatamodeld */; };
-		1EDF4C7A1D1B998E00BEAD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF4C791D1B998E00BEAD24 /* Assets.xcassets */; };
-		1EDF4C7D1D1B998E00BEAD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF4C7B1D1B998E00BEAD24 /* LaunchScreen.storyboard */; };
+		1EDF4C861D1B9A1F00BEAD24 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF4C841D1B9A1F00BEAD24 /* ItemCell.swift */; };
+		1EDF4C871D1B9A1F00BEAD24 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF4C851D1B9A1F00BEAD24 /* ItemCell.xib */; };
+		1EDF4C8B1D1BA02700BEAD24 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF4C8A1D1BA02700BEAD24 /* PrincipalViewController.swift */; };
+		1EE545951D481F3800B34F7A /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE545941D481F3800B34F7A /* PopupViewController.swift */; };
+		1EF557081D381FFA00F82569 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557071D381FFA00F82569 /* Reachability.swift */; };
+		1EF557191D38405E00F82569 /* Evento+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557091D38405E00F82569 /* Evento+CoreDataProperties.swift */; };
+		1EF5571A1D38405E00F82569 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570A1D38405E00F82569 /* Evento.swift */; };
+		1EF5571B1D38405E00F82569 /* Ruta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570B1D38405E00F82569 /* Ruta+CoreDataProperties.swift */; };
+		1EF5571C1D38405E00F82569 /* Ruta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570C1D38405E00F82569 /* Ruta.swift */; };
+		1EF5571D1D38405E00F82569 /* Categoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570D1D38405E00F82569 /* Categoria+CoreDataProperties.swift */; };
+		1EF5571E1D38405E00F82569 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570E1D38405E00F82569 /* Categoria.swift */; };
+		1EF5571F1D38405E00F82569 /* Tramo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5570F1D38405E00F82569 /* Tramo+CoreDataProperties.swift */; };
+		1EF557201D38405E00F82569 /* Tramo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557101D38405E00F82569 /* Tramo.swift */; };
+		1EF557221D38405E00F82569 /* Operacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557121D38405E00F82569 /* Operacion.swift */; };
+		1EF557231D38405E00F82569 /* Tipo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557131D38405E00F82569 /* Tipo+CoreDataProperties.swift */; };
+		1EF557241D38405E00F82569 /* Tipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557141D38405E00F82569 /* Tipo.swift */; };
+		1EF557251D38405E00F82569 /* Listado+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557151D38405E00F82569 /* Listado+CoreDataProperties.swift */; };
+		1EF557261D38405E00F82569 /* Listado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557161D38405E00F82569 /* Listado.swift */; };
+		1EF557271D38405E00F82569 /* Placa+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557171D38405E00F82569 /* Placa+CoreDataProperties.swift */; };
+		1EF557281D38405E00F82569 /* Placa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF557181D38405E00F82569 /* Placa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0354E3CD8FDC971ABD77C384 /* Pods-SERVOSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SERVOSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SERVOSA/Pods-SERVOSA.debug.xcconfig"; sourceTree = "<group>"; };
+		1E2ED1131D358D3700BB6E4A /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		1E38ACD21D411CB90028B1C5 /* PyramidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PyramidViewController.swift; sourceTree = "<group>"; };
+		1E3E34711D35A43500BDFE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E466B7D1D46688100B70A88 /* ExportarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportarViewController.swift; sourceTree = "<group>"; };
+		1E466B7F1D4685DE00B70A88 /* ExportarPyramidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportarPyramidViewController.swift; sourceTree = "<group>"; };
+		1E466B811D46B4C900B70A88 /* ConfiguracionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfiguracionViewController.swift; sourceTree = "<group>"; };
+		1E466B831D46E36300B70A88 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1E7041D91D3D43E20032FAB1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		1E953ABE1D3DDE1500F6672C /* LoadingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHelper.swift; sourceTree = "<group>"; };
+		1E953AC01D3E7D0D00F6672C /* ListadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
+		1E953AC21D3E8AA900F6672C /* ListadoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoCell.swift; sourceTree = "<group>"; };
+		1E953AC31D3E8AA900F6672C /* ListadoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListadoCell.xib; sourceTree = "<group>"; };
+		1EA0D1F81D3FE12400AB6CD4 /* Piechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piechart.swift; sourceTree = "<group>"; };
+		1EA0D1FA1D3FE7AF00AB6CD4 /* PieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		1ECECA961D3D675300510018 /* KeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		1ECECA981D3D91CB00510018 /* ModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelHelper.swift; sourceTree = "<group>"; };
+		1ECECA9C1D3D9CE400510018 /* Operacion+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operacion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1ED550FD1D20861D0049C314 /* Login.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.Storyboard; sourceTree = "<group>"; };
+		1ED551031D208D2D0049C314 /* Usuario+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1ED551041D208D2D0049C314 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		1ED551071D208D8A0049C314 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1ED551091D209BEC0049C314 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		1EDF4C6C1D1B998E00BEAD24 /* SERVOSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SERVOSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDF4C6F1D1B998E00BEAD24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDF4C711D1B998E00BEAD24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EDF4C741D1B998E00BEAD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EDF4C771D1B998E00BEAD24 /* SERVOSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SERVOSA.xcdatamodel; sourceTree = "<group>"; };
-		1EDF4C791D1B998E00BEAD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EDF4C7C1D1B998E00BEAD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EDF4C7E1D1B998E00BEAD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDF4C841D1B9A1F00BEAD24 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		1EDF4C851D1B9A1F00BEAD24 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		1EDF4C8A1D1BA02700BEAD24 /* PrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
+		1EE545941D481F3800B34F7A /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		1EF557071D381FFA00F82569 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1EF557091D38405E00F82569 /* Evento+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Evento+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF5570A1D38405E00F82569 /* Evento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		1EF5570B1D38405E00F82569 /* Ruta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ruta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF5570C1D38405E00F82569 /* Ruta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ruta.swift; sourceTree = "<group>"; };
+		1EF5570D1D38405E00F82569 /* Categoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF5570E1D38405E00F82569 /* Categoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		1EF5570F1D38405E00F82569 /* Tramo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tramo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF557101D38405E00F82569 /* Tramo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tramo.swift; sourceTree = "<group>"; };
+		1EF557121D38405E00F82569 /* Operacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operacion.swift; sourceTree = "<group>"; };
+		1EF557131D38405E00F82569 /* Tipo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tipo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF557141D38405E00F82569 /* Tipo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tipo.swift; sourceTree = "<group>"; };
+		1EF557151D38405E00F82569 /* Listado+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Listado+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF557161D38405E00F82569 /* Listado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listado.swift; sourceTree = "<group>"; };
+		1EF557171D38405E00F82569 /* Placa+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EF557181D38405E00F82569 /* Placa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placa.swift; sourceTree = "<group>"; };
+		7AD0D8947D8E9CD097851E7D /* Pods-SERVOSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SERVOSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SERVOSA/Pods-SERVOSA.release.xcconfig"; sourceTree = "<group>"; };
+		CA11FE4DD7CC018ED95BE83C /* Pods_SERVOSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SERVOSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +115,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E466B841D46E36400B70A88 /* MessageUI.framework in Frameworks */,
+				1C45E6D19A282785699195D4 /* Pods_SERVOSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1892B08C5AD0B1F49234C068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0354E3CD8FDC971ABD77C384 /* Pods-SERVOSA.debug.xcconfig */,
+				7AD0D8947D8E9CD097851E7D /* Pods-SERVOSA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1EDF4C631D1B998E00BEAD24 = {
 			isa = PBXGroup;
 			children = (
+				1E466B831D46E36300B70A88 /* MessageUI.framework */,
+				1EA0D1F81D3FE12400AB6CD4 /* Piechart.swift */,
+				1E953ABE1D3DDE1500F6672C /* LoadingHelper.swift */,
+				1ECECA9C1D3D9CE400510018 /* Operacion+CoreDataProperties.swift */,
+				1ECECA981D3D91CB00510018 /* ModelHelper.swift */,
+				1ECECA961D3D675300510018 /* KeyboardHelper.swift */,
+				1EF557091D38405E00F82569 /* Evento+CoreDataProperties.swift */,
+				1EF5570A1D38405E00F82569 /* Evento.swift */,
+				1EF5570B1D38405E00F82569 /* Ruta+CoreDataProperties.swift */,
+				1EF5570C1D38405E00F82569 /* Ruta.swift */,
+				1EF5570D1D38405E00F82569 /* Categoria+CoreDataProperties.swift */,
+				1EF5570E1D38405E00F82569 /* Categoria.swift */,
+				1EF5570F1D38405E00F82569 /* Tramo+CoreDataProperties.swift */,
+				1EF557101D38405E00F82569 /* Tramo.swift */,
+				1EF557121D38405E00F82569 /* Operacion.swift */,
+				1EF557131D38405E00F82569 /* Tipo+CoreDataProperties.swift */,
+				1EF557141D38405E00F82569 /* Tipo.swift */,
+				1EF557151D38405E00F82569 /* Listado+CoreDataProperties.swift */,
+				1EF557161D38405E00F82569 /* Listado.swift */,
+				1EF557171D38405E00F82569 /* Placa+CoreDataProperties.swift */,
+				1EF557181D38405E00F82569 /* Placa.swift */,
+				1EF557071D381FFA00F82569 /* Reachability.swift */,
+				1E2ED1131D358D3700BB6E4A /* AlertHelper.swift */,
+				1ED551031D208D2D0049C314 /* Usuario+CoreDataProperties.swift */,
+				1ED551041D208D2D0049C314 /* Usuario.swift */,
 				1EDF4C6E1D1B998E00BEAD24 /* SERVOSA */,
 				1EDF4C6D1D1B998E00BEAD24 /* Products */,
+				1892B08C5AD0B1F49234C068 /* Pods */,
+				B9EE0CAC40622E5F96FAEE59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +180,36 @@
 			children = (
 				1EDF4C6F1D1B998E00BEAD24 /* AppDelegate.swift */,
 				1EDF4C711D1B998E00BEAD24 /* ViewController.swift */,
+				1ED550FD1D20861D0049C314 /* Login.Storyboard */,
 				1EDF4C731D1B998E00BEAD24 /* Main.storyboard */,
-				1EDF4C791D1B998E00BEAD24 /* Assets.xcassets */,
-				1EDF4C7B1D1B998E00BEAD24 /* LaunchScreen.storyboard */,
 				1EDF4C7E1D1B998E00BEAD24 /* Info.plist */,
 				1EDF4C761D1B998E00BEAD24 /* SERVOSA.xcdatamodeld */,
+				1EDF4C841D1B9A1F00BEAD24 /* ItemCell.swift */,
+				1EDF4C851D1B9A1F00BEAD24 /* ItemCell.xib */,
+				1EDF4C8A1D1BA02700BEAD24 /* PrincipalViewController.swift */,
+				1ED551071D208D8A0049C314 /* LoginViewController.swift */,
+				1ED551091D209BEC0049C314 /* NewEventViewController.swift */,
+				1E3E34711D35A43500BDFE6A /* Assets.xcassets */,
+				1E7041D91D3D43E20032FAB1 /* TestViewController.swift */,
+				1E953AC01D3E7D0D00F6672C /* ListadoViewController.swift */,
+				1E953AC21D3E8AA900F6672C /* ListadoCell.swift */,
+				1E953AC31D3E8AA900F6672C /* ListadoCell.xib */,
+				1EA0D1FA1D3FE7AF00AB6CD4 /* PieViewController.swift */,
+				1E38ACD21D411CB90028B1C5 /* PyramidViewController.swift */,
+				1E466B7D1D46688100B70A88 /* ExportarViewController.swift */,
+				1E466B7F1D4685DE00B70A88 /* ExportarPyramidViewController.swift */,
+				1E466B811D46B4C900B70A88 /* ConfiguracionViewController.swift */,
+				1EE545941D481F3800B34F7A /* PopupViewController.swift */,
 			);
 			path = SERVOSA;
+			sourceTree = "<group>";
+		};
+		B9EE0CAC40622E5F96FAEE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA11FE4DD7CC018ED95BE83C /* Pods_SERVOSA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EDF4C811D1B998E00BEAD24 /* Build configuration list for PBXNativeTarget "SERVOSA" */;
 			buildPhases = (
+				0E0EFCAD826232457B57E6A5 /* [CP] Check Pods Manifest.lock */,
 				1EDF4C681D1B998E00BEAD24 /* Sources */,
 				1EDF4C691D1B998E00BEAD24 /* Frameworks */,
 				1EDF4C6A1D1B998E00BEAD24 /* Resources */,
+				F38B2EEF2A341FF47FDC2262 /* [CP] Embed Pods Frameworks */,
+				3899F3120BBA3D2B1100EFF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +247,7 @@
 				TargetAttributes = {
 					1EDF4C6B1D1B998E00BEAD24 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9C58VTE36H;
 					};
 				};
 			};
@@ -125,21 +274,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EDF4C7D1D1B998E00BEAD24 /* LaunchScreen.storyboard in Resources */,
-				1EDF4C7A1D1B998E00BEAD24 /* Assets.xcassets in Resources */,
+				1ED550FE1D20861D0049C314 /* Login.Storyboard in Resources */,
+				1EDF4C871D1B9A1F00BEAD24 /* ItemCell.xib in Resources */,
+				1E953AC51D3E8AA900F6672C /* ListadoCell.xib in Resources */,
+				1E3E34721D35A43500BDFE6A /* Assets.xcassets in Resources */,
 				1EDF4C751D1B998E00BEAD24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E0EFCAD826232457B57E6A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3899F3120BBA3D2B1100EFF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SERVOSA/Pods-SERVOSA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38B2EEF2A341FF47FDC2262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SERVOSA/Pods-SERVOSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EDF4C681D1B998E00BEAD24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED551081D208D8A0049C314 /* LoginViewController.swift in Sources */,
+				1E953AC41D3E8AA900F6672C /* ListadoCell.swift in Sources */,
+				1EF557241D38405E00F82569 /* Tipo.swift in Sources */,
+				1EF557231D38405E00F82569 /* Tipo+CoreDataProperties.swift in Sources */,
+				1EF5571B1D38405E00F82569 /* Ruta+CoreDataProperties.swift in Sources */,
+				1E2ED1141D358D3700BB6E4A /* AlertHelper.swift in Sources */,
+				1E953AC11D3E7D0D00F6672C /* ListadoViewController.swift in Sources */,
+				1EF557271D38405E00F82569 /* Placa+CoreDataProperties.swift in Sources */,
+				1EF5571D1D38405E00F82569 /* Categoria+CoreDataProperties.swift in Sources */,
+				1ED551061D208D2D0049C314 /* Usuario.swift in Sources */,
+				1EF5571F1D38405E00F82569 /* Tramo+CoreDataProperties.swift in Sources */,
+				1EA0D1F91D3FE12400AB6CD4 /* Piechart.swift in Sources */,
+				1E953ABF1D3DDE1500F6672C /* LoadingHelper.swift in Sources */,
+				1EF557281D38405E00F82569 /* Placa.swift in Sources */,
+				1EF5571A1D38405E00F82569 /* Evento.swift in Sources */,
+				1EE545951D481F3800B34F7A /* PopupViewController.swift in Sources */,
+				1EF5571C1D38405E00F82569 /* Ruta.swift in Sources */,
+				1ED5510A1D209BEC0049C314 /* NewEventViewController.swift in Sources */,
+				1EF557201D38405E00F82569 /* Tramo.swift in Sources */,
+				1E466B821D46B4C900B70A88 /* ConfiguracionViewController.swift in Sources */,
+				1EF557251D38405E00F82569 /* Listado+CoreDataProperties.swift in Sources */,
+				1EDF4C861D1B9A1F00BEAD24 /* ItemCell.swift in Sources */,
+				1ECECA9D1D3D9CE400510018 /* Operacion+CoreDataProperties.swift in Sources */,
+				1ED551051D208D2D0049C314 /* Usuario+CoreDataProperties.swift in Sources */,
 				1EDF4C721D1B998E00BEAD24 /* ViewController.swift in Sources */,
+				1EF5571E1D38405E00F82569 /* Categoria.swift in Sources */,
+				1EF557081D381FFA00F82569 /* Reachability.swift in Sources */,
+				1EF557261D38405E00F82569 /* Listado.swift in Sources */,
+				1EF557221D38405E00F82569 /* Operacion.swift in Sources */,
+				1E466B7E1D46688100B70A88 /* ExportarViewController.swift in Sources */,
+				1E38ACD31D411CB90028B1C5 /* PyramidViewController.swift in Sources */,
 				1EDF4C701D1B998E00BEAD24 /* AppDelegate.swift in Sources */,
+				1EA0D1FB1D3FE7AF00AB6CD4 /* PieViewController.swift in Sources */,
+				1ECECA971D3D675300510018 /* KeyboardHelper.swift in Sources */,
+				1E7041DA1D3D43E20032FAB1 /* TestViewController.swift in Sources */,
+				1EDF4C8B1D1BA02700BEAD24 /* PrincipalViewController.swift in Sources */,
+				1E466B801D4685DE00B70A88 /* ExportarPyramidViewController.swift in Sources */,
+				1ECECA991D3D91CC00510018 /* ModelHelper.swift in Sources */,
+				1EF557191D38405E00F82569 /* Evento+CoreDataProperties.swift in Sources */,
 				1EDF4C781D1B998E00BEAD24 /* SERVOSA.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,14 +389,6 @@
 				1EDF4C741D1B998E00BEAD24 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1EDF4C7B1D1B998E00BEAD24 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EDF4C7C1D1B998E00BEAD24 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,23 +481,33 @@
 		};
 		1EDF4C821D1B998E00BEAD24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0354E3CD8FDC971ABD77C384 /* Pods-SERVOSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: victor villalobos e (694P5L7ARB)";
 				INFOPLIST_FILE = SERVOSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ucweb.SERVOSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c6e857f-d173-443f-bf17-d2e2fb271c67";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1EDF4C831D1B998E00BEAD24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD0D8947D8E9CD097851E7D /* Pods-SERVOSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: victor villalobos e (694P5L7ARB)";
 				INFOPLIST_FILE = SERVOSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ucweb.SERVOSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c6e857f-d173-443f-bf17-d2e2fb271c67";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -292,6 +530,7 @@
 				1EDF4C831D1B998E00BEAD24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

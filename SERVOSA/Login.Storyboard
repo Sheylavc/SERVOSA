@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9uH-QB-8cf">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="0QG-kU-i4R">
+            <objects>
+                <viewController id="9uH-QB-8cf" customClass="LoginViewController" customModule="SERVOSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bSb-Gh-SD8"/>
+                        <viewControllerLayoutGuide type="bottom" id="e0e-jd-w01"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lwD-ya-avd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_servosa" translatesAutoresizingMaskIntoConstraints="NO" id="JXf-ms-NNW">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYo-sZ-uGf">
+                                <rect key="frame" x="-10" y="20" width="620" height="580"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_servosa" translatesAutoresizingMaskIntoConstraints="NO" id="be1-UU-t5z">
+                                        <rect key="frame" x="20" y="165" width="580" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="dMf-jg-n7x"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDENTIFICACION DE COMPORTAMIENTOS SEGUROS Y GESTION DE RIESGOS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4c-Nv-h9N">
+                                        <rect key="frame" x="20" y="240" width="580" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.086915425956249237" green="0.21948793530464172" blue="0.7513306736946106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y1K-zU-q7B">
+                                        <rect key="frame" x="90" y="313" width="440" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="hnj-jz-c2J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="9uH-QB-8cf" id="MTb-2W-LSo"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="USUARIO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9v-QE-Q48">
+                                        <rect key="frame" x="90" y="273" width="440" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jWg-rW-YwJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="9uH-QB-8cf" id="zXZ-Gr-QK7"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="q9v-QE-Q48" firstAttribute="trailing" secondItem="Y1K-zU-q7B" secondAttribute="trailing" id="7Aj-bA-u6n"/>
+                                    <constraint firstItem="be1-UU-t5z" firstAttribute="top" secondItem="rYo-sZ-uGf" secondAttribute="top" constant="165" id="7yD-KD-YCA"/>
+                                    <constraint firstItem="q9v-QE-Q48" firstAttribute="top" secondItem="t4c-Nv-h9N" secondAttribute="bottom" constant="15" id="9Dv-x9-Egu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y1K-zU-q7B" secondAttribute="bottom" constant="232" id="9rr-f4-DIk"/>
+                                    <constraint firstItem="be1-UU-t5z" firstAttribute="leading" secondItem="t4c-Nv-h9N" secondAttribute="leading" id="BHB-rc-y7T"/>
+                                    <constraint firstItem="t4c-Nv-h9N" firstAttribute="top" secondItem="be1-UU-t5z" secondAttribute="bottom" constant="5" id="CUP-eJ-jCC"/>
+                                    <constraint firstItem="be1-UU-t5z" firstAttribute="centerX" secondItem="rYo-sZ-uGf" secondAttribute="centerX" id="Knh-19-gLS"/>
+                                    <constraint firstItem="q9v-QE-Q48" firstAttribute="leading" secondItem="Y1K-zU-q7B" secondAttribute="leading" id="aQM-YA-j19"/>
+                                    <constraint firstItem="be1-UU-t5z" firstAttribute="trailing" secondItem="t4c-Nv-h9N" secondAttribute="trailing" id="bg6-RW-rf1"/>
+                                    <constraint firstItem="q9v-QE-Q48" firstAttribute="leading" secondItem="rYo-sZ-uGf" secondAttribute="leading" constant="90" id="c5U-O0-gPJ"/>
+                                    <constraint firstItem="be1-UU-t5z" firstAttribute="leading" secondItem="rYo-sZ-uGf" secondAttribute="leading" constant="20" id="ium-Tv-Qik"/>
+                                    <constraint firstAttribute="trailing" secondItem="be1-UU-t5z" secondAttribute="trailing" constant="20" id="spL-Qi-pOf"/>
+                                    <constraint firstItem="t4c-Nv-h9N" firstAttribute="centerX" secondItem="q9v-QE-Q48" secondAttribute="centerX" id="vjF-9u-0sk"/>
+                                    <constraint firstItem="Y1K-zU-q7B" firstAttribute="top" secondItem="q9v-QE-Q48" secondAttribute="bottom" constant="10" id="vnZ-kr-Cqv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JXf-ms-NNW" firstAttribute="top" secondItem="bSb-Gh-SD8" secondAttribute="bottom" id="7aN-wV-nna"/>
+                            <constraint firstItem="rYo-sZ-uGf" firstAttribute="top" secondItem="JXf-ms-NNW" secondAttribute="top" id="8Uh-yt-lR9"/>
+                            <constraint firstItem="rYo-sZ-uGf" firstAttribute="bottom" secondItem="e0e-jd-w01" secondAttribute="top" id="B6e-tu-aIa"/>
+                            <constraint firstAttribute="trailing" secondItem="JXf-ms-NNW" secondAttribute="trailing" id="IwL-tf-lWF"/>
+                            <constraint firstItem="rYo-sZ-uGf" firstAttribute="centerX" secondItem="JXf-ms-NNW" secondAttribute="centerX" id="Pni-Kk-Veg"/>
+                            <constraint firstItem="e0e-jd-w01" firstAttribute="top" secondItem="JXf-ms-NNW" secondAttribute="bottom" id="SdK-Of-xHa"/>
+                            <constraint firstItem="JXf-ms-NNW" firstAttribute="leading" secondItem="lwD-ya-avd" secondAttribute="leading" id="jVc-yq-1zp"/>
+                            <constraint firstItem="rYo-sZ-uGf" firstAttribute="leading" secondItem="lwD-ya-avd" secondAttribute="leadingMargin" constant="-30" id="jtm-Rt-VAf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollview" destination="rYo-sZ-uGf" id="dcT-R7-h8o"/>
+                        <outlet property="txtPassword" destination="Y1K-zU-q7B" id="dzD-S6-XTK"/>
+                        <outlet property="txtUsuario" destination="q9v-QE-Q48" id="36b-ZA-KZ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdu-cy-Zh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-846" y="225"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_servosa" width="640" height="960"/>
+        <image name="logo_servosa" width="512" height="141"/>
+    </resources>
+</document>
